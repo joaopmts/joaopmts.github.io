@@ -271,8 +271,8 @@ footer {
 
 /* Imagem de perfil redonda */
 .profile-pic {
-      width: 250px;
-      height: 250px;
+      width: 460px;
+      height: 460px;
       border-radius: 50%;
       object-fit: cover;
       border: 2px solid #ccc;
