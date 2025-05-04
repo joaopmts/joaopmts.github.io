@@ -270,7 +270,7 @@ footer {
 }
 
 /* Imagem de perfil redonda */
-.profile-pic {
+profile-pic {
   width: 180px;
   height: 180px;
   border-radius: 50%;
