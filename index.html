@@ -252,44 +252,33 @@
   <tr>
     <td><small>Lakehouse & Delta Lake</small></td>
     <td><small>
-      Implementation of the Medallion Architecture (Bronze, Silver, Gold) using Delta Lake. 
-      Data versioning, time travel, and incremental loads (CDC) with ACID transactions. 
-      Use of <b>checkpoints</b> for fault tolerance and <b>MERGE INTO</b> for upserts between layers.
+      Medallion architecture (Bronze, Silver, Gold), Delta & Iceberg format, ACID transactions, 
+      versioning, time travel, CDC, checkpoints, and SQL operations 
+      (MERGE INTO, UPDATE, DELETE, INSERT, OPTIMIZE, VACUUM, Z-ORDER).
     </small></td>
   </tr>
 
   <tr>
     <td><small>Data Engineering</small></td>
     <td><small>
-      ETL/ELT pipelines developed with PySpark and Delta format. 
-      Bronze layer ingestion via batch/streaming, Silver layer transformation with deduplication, watermark, and data validation. 
-      Jobs parameterized for scheduled executions and idempotent reprocessing.
+      ETL/ELT pipelines, incremental ingestion, Auto Loader, data deduplication, 
+      watermarking, schema evolution, and idempotent processing.
     </small></td>
   </tr>
 
   <tr>
     <td><small>SQL & Integration</small></td>
     <td><small>
-      Analytical queries with Databricks SQL (Serverless Warehouses), creation of views and dashboards, 
-      integration with BI tools (Power BI, Tableau). 
-      Data reading/writing in Parquet and Delta formats with Auto Loader and SQL MERGE commands.
+      Databricks SQL (Warehouses/Serverless), analytical queries, views, materializations, 
+      BI integration (Power BI, Tableau), and data access via Delta and Parquet.
     </small></td>
   </tr>
 
   <tr>
-    <td><small>Streaming (Learning)</small></td>
+    <td><small>Streaming</small></td>
     <td><small>
-      Learning Structured Streaming for continuous ingestion between Bronze and Silver layers, 
-      using checkpoints and watermarks for data consistency and recovery.
-    </small></td>
-  </tr>
-
-  <tr>
-    <td><small>Governance & Workflow</small></td>
-    <td><small>
-      Basic use of Unity Catalog for organizing tables and permissions. 
-      Workflow orchestration and monitoring via Databricks Jobs, 
-      applying parameters such as <i>execution_date</i> and <i>refresh_rate</i>.
+      Structured Streaming concepts, micro-batch and continuous modes, checkpoints, 
+      watermarks, and fault-tolerant pipelines.
     </small></td>
   </tr>
 </table>
