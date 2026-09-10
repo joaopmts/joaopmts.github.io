@@ -103,6 +103,10 @@ img {
   max-width:100%;
 }
 
+.profile-photo {
+  border-radius:50%;
+}
+
 header {
   width:270px;
   float:left;
